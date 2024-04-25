@@ -67,4 +67,8 @@ public class NewImmForm {
         }
         return false;
     }
+
+    public ArrayList<Form> getDatabase() {
+        return dbList;
+    }
 }

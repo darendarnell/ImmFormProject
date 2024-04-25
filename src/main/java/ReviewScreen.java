@@ -8,6 +8,7 @@ public class ReviewScreen {
 
     static JButton getForm;
     static JButton savesubmit;
+    static JButton check;
     static JButton verify;
 
     static int currID;
@@ -95,9 +96,11 @@ public class ReviewScreen {
         footer.setPreferredSize(new Dimension(100,80));
         getForm = new JButton("Get Form");
         savesubmit = new JButton("Save & Submit");
+        check = new JButton("Check");
         verify = new JButton("Verify");
         footer.add(getForm);
         footer.add(savesubmit);
+        footer.add(check);
         footer.add(verify);
 
         JFrame frame = new JFrame();
@@ -140,8 +143,7 @@ public class ReviewScreen {
             immForm.updateNewImmForm(updatedForm);
         });
 
-        /*
-        verify.addActionListener(e -> {
+        check.addActionListener(e -> {
             Form currForm = immForm.getNewImmForm(currID);
             ArrayList<Form> currDB = immForm.getDatabase();
 
@@ -152,6 +154,9 @@ public class ReviewScreen {
                 }
             }
         });
-         */
+
+        verify.addActionListener(e -> {
+            showMessageDialog(null, "VALID");
+        });
     }
 }
