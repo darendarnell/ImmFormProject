@@ -65,7 +65,7 @@ public class PetitionerUI extends JFrame{
         panel.add(lastName);
         panel.add(new JLabel("Date of Birth (mmddyy):"));
         panel.add(dob);
-        panel.add(new JLabel("ID Number:"));
+        panel.add(new JLabel("A-Number:"));
         panel.add(id);
         panel.add(new JLabel("Gender: (Male/Female/Other"));
         panel.add(gender);
