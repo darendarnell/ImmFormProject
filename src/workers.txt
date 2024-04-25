@@ -1,8 +1,4 @@
-123,REVIEW,A101101010,Daren,Darnell,12/12/1985,Male,White,Sydney,Australia
-678,REVIEW,A202202020,Harry,Potter,07/31/1980,Male,Asian,London,England
-543,REVIEW,A303303030,Rita,Skeeter,03/28/1998,Female,African,Cape Town,South Africa
-555,REVIEW,A404404040,Julian,Rogers,05/17/1980,Male,Hispanic,Mexico City,Mexico
-111,DONE,A505505050,Jane,Smith,01/01/1970,Female,White,Hamburg,Germany
-777,DONE,A101101010,Frank,Smith,12/12/1985,Male,White,Sydney,Australia
-661,APPROVE,A999999999,Example,Person,010101,Male,African,City,Country
-138,APPROVE,A888888888,Example2,Person2,010101,Male,Indian,City3,Country4
+123,DONE,A101101010,John,Smith,12/12/1985,Male,White,Sydney,Australia
+678,DONE,A202202020,Harry,Jackson,07/31/1980,Male,Asian,London,England
+507,APPROVE,A888888888,Example,Person,010101,Male,Whity,City1,Country1
+859,REVIEW,A999999999,Example2,Person2,010101,Male,White,City1,Country1

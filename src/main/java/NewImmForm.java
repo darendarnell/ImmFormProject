@@ -48,7 +48,6 @@ public class NewImmForm {
     // returns true on successful update
     // returns false on unsuccessful update or database does not contain that formID
     public boolean updateNewImmForm(Form formObj) {
-        System.out.println("In NewImmForm.java - " + formObj.lastName);
         if(Util.updateDatabase(fileName, formObj, false)) {
             for(int i = 0; i < dbList.size(); i++) {
                 Form oldForm = dbList.get(i);
